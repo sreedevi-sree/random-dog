@@ -1,139 +1,18 @@
 body{
-    background-color: rgb(205, 217, 240);
-    column-count: 2;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-gap: 15px;
-  -webkit-column-gap: 15px;
-  -moz-column-gap: 15px;
-  column-rule: 2px dashed #0b00ff;
-  -webkit-column-rule: 2px dashed #0b00ff;
-  -moz-column-rule: 2px dashed #0b00ff;
-  }
-  .heading{
-    font-size: 50px;
-    text-align: center;
-  }
-  .heading p{
-    font-size: 25px;
-  }
-   h5{
-    background-color: rgb(67, 103, 221);
-    display: inline;
-    color:white;
-    padding-right: 100px;
-    padding-left: 100px;
-  }
-  .col2{
-    display: flex;
-    flex-direction: row;
-  }
-  .col2 i{
-    font-size: 50px;
-    margin-right: 10px;
-  }
-  .row1{
-    
-    display: flex;
-    flex-direction: row;
-  }
-  .col1 h1{
-    color: blue;
-  }
-  .col1 p{
-    color: rgb(32, 165, 165);
-  }
-  .row2{
-      display: flex;
-    flex-direction: row;
-  }
-  .row2 img{
-    width: 50px;
-    margin-left: 20px;
-  }
-  .row3 i{
-    display: flex;
-    flex-direction: row;
-    font-size: 10px;
-    margin-left: 20px;
-  }
-  
-  .row3 {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .column1{
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-  }
-  .column2{
-    display: flex;
-    flex-direction: row;
-    /* font-size: 50px; */
-  
-  }
-  
-  .column2 i{
-    font-size: 50px;
-  
-  }
-  
-  .row4 i{
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    margin-left: 30px;
-    color:blue;
-  }
-  
-  .row4 {
-      display: flex;
-    flex-direction: row;
-  }
-  
-  .c1{
-    margin-left: 50px;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-  }
-  .c2{
-    display: flex;
-    flex-direction: row;
-  }
-  .row5,.row6,.row7,.row8{
-    font-size: 50px;
-    display: flex;
-    flex-direction: row;
-  }
-  .row10{
-    
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .cmn2 i{
-    font-size: 100px;
-    /* background-color: white; */
-    padding: 10px;
-    border: 2px solid blue;
-    border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    color: red;
-  }
-  .column1{
-    margin-left: 30px;
-  }
-  .clmnn2 img{
-  width: 100px;
-  padding: 10px;
-  border: 2px solid blue;
-  border-radius: 200px 200px 200px 200px;
-  -webkit-border-radius: 200px 200px 200px 200px;
-  -moz-border-radius: 200px 200px 200px 200px;
+  background-color: black;
+  color:white;
+}
+.row{
+  margin:30px;
+}
+h1{
+  margin-top: 30px;
+  text-align: center;
   color: red;
-  }
-  
+  font-size: 60px;
+
+}
+h3{
+  text-align: center;
+
+}
