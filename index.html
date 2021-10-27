@@ -1,26 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout of the Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-
-    <div class="flex-header">
-      <i class="fa fa-github"></i>
-     <h1>GITHUB</h1> 
-    </div>    
-    <div class="wrapper">
-      <input type="search" name="searchname" placeholder="search">
-      <div class="one"></div>
-      <div class="two"></div>
-      <div class="three"></div>
-      <div class="four"></div>
-      <div class="five"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid or flex</title>
+  <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+rel="stylesheet"
+/>
+  <link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="row">
+    <div class="col-4">
+<img src="https://digitalbrandinginstitute.com/wp-content/uploads/2015/01/Screen-Shot-2016-04-08-at-3.46.26-PM.png" width=400px>     
+ </div>
+      <div class="col-2 alert alert-danger">
+        <h5>Weather</h5>
+        <i class="fas fa-cloud"></i>
+      <p>weather</p>
+      <input type="text" placeholder="weather broklyn">
+      </div>
+        <div class="col-2 alert alert-primary">
+          <h5>Stock Quotes</h5>
+          <i class="fas fa-search"></i>  
+                  <p>Stock Quotes</p>
+          <input type="text" placeholder="APPL">
+                    </div>
+          <div class="col-2 alert alert-warning">
+            <h5>Current Time </h5>
+            <i class="far fa-clock"></i>
+               <p>Current Time </p>
+            <input type="text" placeholder="Time melbourne"> 
+              </div>
     </div>
-  </body>
+  <div class="row">
+    <div class="col-4 alert alert-light">
+      <p>Search engines are the backbones of everyday internet use. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et sed qui mollitia deserunt quam itaque veniam ad, laboriosam exercitationem expedita atque. Ut dolores accusantium temporibus aut ipsum, minima eos numquam.</p>
+ <h3>Here are some pointers that'll save you googling 'how to Google'</h3>
+    </div>
+    <div class="col-2 alert alert-success">
+      <h5>Sport Scores</h5>
+      <i class="fas fa-cloud"></i>
+    <p>Sport Scores</p>
+    <input type="text" placeholder="manchester united">
+    </div>
+      <div class="col-2 alert alert-warning">
+        <h5>Calculator </h5>
+        <i class="fas fa-calculator"></i>
+            <p>equation </p>
+        <input type="text" placeholder="97*4">
+                  </div>
+        <div class="col-2 alert alert-danger">
+          <h5>Sunrise & Sunset Time </h5>
+          <i class="fas fa-sun"></i>             <p>Sunset City </p>
+          <input type="text" placeholder="Sunset honolulu"> 
+            </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 alert alert-info">
+          <i class="fas fa-sort-down"></i>
+<h1>Search operators</h1>
+<p>Here's how to get the most out of your everyday Google searches.</p>
+       </div>
+       <div class="col-2 alert alert-success">
+        <h5> Conversions</h5>
+        <i class="fas fa-circle-notch"></i>      <p>amount-unit 1 to amount-unit 2</p>
+      <input type="text" placeholder="10 miles to km">
+      </div>
+        <div class="col-2 alert alert-warning">
+          <h5>Dictionary </h5>
+          <i class="fas fa-book-open"></i>              <p>define </p>
+          <input type="text" placeholder="define jingoism">
+                    </div>
+          <div class="col-2 alert alert-danger">
+            <h5>Transations </h5>
+            <i class="fas fa-comment-alt"></i>             <p>Translate word to languaued</p>
+            <input type="text" placeholder=" translate pomme to english"> 
+              </div>
+      </div>
+  <div class="row">
+    <div class="col-4 alert alert-danger">
+      <p>Search <u> exact phrases</u></p>
+      <p><b>"Search"</b> if you're booking for an exact phrase,use quotaion marks.</p>
+    <input type="search" placeholder="let them eat cake">
+    </div>
+    <div class="col-2 alert alert-success">
+      <h5> Film Showings</h5>
+      <i class="fab fa-bitbucket"></i>         <p>movies postcode</p>
+    <input type="text" placeholder="movies M11EZ">
+    </div>
+      <div class="col-2 alert alert-primary">
+        <h5>Flight Statuses </h5>
+        <i class="fas fa-helicopter"></i>                  <p>flight number </p>
+        <input type="text" placeholder="BA 117">
+                  </div>
+        <div class="col-2 alert alert-warning">
+          <h5>Package Tracking </h5>
+          <i class="fas fa-search"></i>               <p>tracking number</p>
+          <input type="text" placeholder=" 1Z5615280351136446"> 
+            </div>
+  </div>
+  <div class="row" >
+    <div class="col-4 alert alert-primary">
+<p><u>Exculde</u> a word</p>
+<p>  Add a dash before to exclude search items.<b>-search</b></p>
+<input type="search" placeholder="inception-movie">
+</div>
+<div class="col-6">
+  <h1>And besides using search terms,Google also offers you a host of other ways to Search</h1>
+</div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-warning">
+      <p>search <u>within a site</u></p>
+      <p> <b>Site:</b>Get results from certain domains</p>
+      <input type="search" placeholder="recepies-site:theguardian.com">
+          </div>
+          <div class="col-6">
+            <h1>Google Search Tricks</h1>
+            <p>A useful app for enhancing your Google searches and getting the most from the search engine</p>
+         </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-success">
+      <p>search <u>similar</u></p>
+      <p> Find sites with similar content to a URL you already know<b>related:</b></p>
+      <input type="search" placeholder="related:visualy.ly">
+          </div>
+          <div class="col-6">
+            <h1>Google Images</h1>
+            <p>lets you to search for images related to particular word or pharse.you can also upload or link to an image to find more about it, or similar images.</p>
+         </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-danger">
+      <p>search for <u>words in text</u></p>
+      <p><b>allintext:</b><sup>find pages where the all terms apper in text</sup> </p> 
+      <input type="search" placeholder="aligntext:holiday hot bargain">
+    <p>Find pages where the one term appears in the text, and other terms appear elsewhere in the documnet <b> intext:</b></p>      
+    <input type="search" placeholder="john lennon intext:liverpool">
+    </div>
+    <div class="col-6">
+      <h1>Google Goggles</h1>
+<p>lets you search the web using your mobile phones camarra instead of words, Simply take a picture of the item you want to search for, and look at the result</p>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-primary">
+      <p>search for <u>words in text</u></p>
+      <p><b>allintitle:</b><sup>find pages where the all terms apper in tittle</sup> </p> 
+      <input type="search" placeholder="aligntittle:the big lebowski review">
+    <p>Find pages where the one term appears in the text, and other terms appear elsewhere in the documenet<b> intittle:</b></p>      
+    <input type="search" placeholder="flu shot intittle:help">
+    </div>
+    <div class="col-6">
+      <h1>Google Trends</h1>
+<p>lets you explore treanding search topics on Google and see what other people are searching for</p>
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-warning">
+      <p>search for <u>words in URL</u></p>
+      <p><b>allinurl:</b><sup>find pages where the all terms apper in url</sup> </p> 
+      <input type="search" placeholder="alignurl:bbc news">
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-success">
+      <p>Find news <u>related to a particular location</u></p>
+      <p>Use this Google News to find storeis coming from a particular location<b>location:</b></p> 
+      <input type="search" placeholder="prince george location:auckland">
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-danger">
+      <p>search for a<u>particular filetype</u></p>
+      <p><b>filetype:suffix</b><sup>Google will restict results to pages that end in suffix</sup> </p> 
+      <input type="search" placeholder="annual report 2014 filetype:pdf">
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-primary">
+      <p>search for a<u>nuber range</u></p>
+<p>Separate number by two periods to see results that conatian numbers in thegiven range</p>     
+ <input type="search" placeholder="dslr $300..$500">
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-warning">
+      <p> <u>Blank</u></p>
+      <p><b><i class="fas fa-star-of-life"></i></b><sup>find pages where the all terms apper in url</sup> </p> 
+      <input type="search" placeholder="there is a * that never goes *">
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-4 alert alert-success">
+      <p> <u>Either word</u></p>
+      <p>if you want to find pages with one of the severalwords, use a capitalized OR,without OR, result would show pages that include all the terms<b>OR</b><sup>find pages where the all terms apper in url</sup> </p> 
+      <input type="search" placeholder=" olympics 2012 OR 2016">
+   </div>
+  </div>
+  
+</body>
 </html>
