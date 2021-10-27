@@ -1,117 +1,165 @@
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  height: 100vh;
-  color:white
-}
-
-.layout-container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  font-size: 50px;
-}
-
-.flex-header h1 {
-  color: black;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 400px;
-}
-.subhead{
-  color: white;
-  display: flex;
-  flex-direction: row;
-  background-color: blue;
-  font-size: 30px;
-
-}
-.subhead h3{
-  margin-left: 2000px;
-  font-size: 30px;
-  }
-.subhead h4{
-  margin-left: 1000px;
-  font-size: 30px;
-  }
-.subhead h6{
-margin-left: 1000px;
-font-size: 30px;
-}
-.flex-main-container {
-  display: flex;
-  flex: 1;
-  color: black;
-}
-.row1{
-  display: flex;
-  flex-direction: row;
-}
-.flex-aside {
-  background-color:white;
-  display: flex;
-  flex-direction: column;
-}
-.img1,.img2,.img3,.img4,.img5,.img6,.barcode{
-  background-color: rgb(162, 177, 247);
-  color:black;
-  height: 1050px;
-  margin: 10px;
-}
-.img1,.img2,.img3,.img4,.img5,.img6, img{
-width: 500px;
-}
-
-.col1{
-background-color: rgb(236, 206, 236);
-  color: black;
+body{
   border: 2px solid black;
+}
+.main{
   margin: 20px;
+
+  color:black ;
 }
-.flex-article-section h1{
-  color: black;
-  font-size: 100px;
-justify-content: center;  }
-.x{
+.flex-header img{
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+text-align: center;
+margin-left: 500px;
+justify-content: center;
+border: 8px dotted blue;
+}
+.flex-header{
+  margin: 20px;
+
+  background-color: gray;
+}
+.flex-header h1{
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(247, 225, 34);
+}
+.subheaded{
+text-align: center;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+padding:12px 0 12px 0;
+ }
+.main{
+  column-count: 2;
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-gap: 15px;
+-webkit-column-gap: 15px;
+-moz-column-gap: 15px;
+column-rule: 2px solid #000000;
+-webkit-column-rule: 2px solid #000000;
+-moz-column-rule: 2px solid #000000;
+}
+.profileheading{
   display: flex;
   flex-direction: row;
 }
-.x p{
-justify-content: center; 
+
+.profileheading i{
+  font-size: 50px;
+  border: 5px dotted yellow;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
 }
-.col2{
+.skillsheading{
   display: flex;
   flex-direction: row;
 }
-.l img{
-  width: 1000px;
-  height:1000px
-}
-.o,.l p{
-color:black;
+.profileheading h1{
+  margin-left: 10px;
 }
 
-.row1{
-
+.skillsheading i{
+  font-size: 30px;
+  border: 5px dotted yellow;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
 }
-.s h1{ 
-font-size: 300px;
-
+.skillsheading h1{
+  margin-left: 10px;
 }
-.s h3{
+.skills h2{
+text-align: center;
 color: black;
 }
-.row2{
-display: flex;
-flex-direction: row;
+.technicalskills{
+  display: flex;
+  flex-direction: row;
 }
-.c2 img{
-width: 4000px;
+.technicalskills ul{
+  list-style: none;
 }
-.row3{
-display: flex;
-flex-direction: row;
+.adskil h2{
+  text-align: center;
+  color: black;
 }
+.academicheading i{
+  font-size: 30px;
+  border: 5px dotted yellow;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+}
+.academicheading{
+  display: flex;
+  flex-direction: row;
+}
+.academicheading h1{
+margin-left: 10px;
+}
+  .sslc{
+      display: flex;
+      flex-direction: row;
+      }
+      .sslc h4{
+    margin-left: 100px;
+      }
+      .hsc{
+        display: flex;
+        flex-direction: row;
+        }
+        .hsc h4{
+      margin-left: 100px;
+        }
+        .ug{
+          display: flex;
+          flex-direction: row;
+          }
+          .ug h4{
+        margin-left: 100px;
+          }
+            
+
+          .projectheading i{
+            font-size: 30px;
+            border: 5px dotted yellow;
+            border-radius: 200px 200px 200px 200px;
+            -webkit-border-radius: 200px 200px 200px 200px;
+            -moz-border-radius: 200px 200px 200px 200px;
+          }
+          .projectheading{
+            display: flex;
+            flex-direction: row;
+          }
+          .projectheading h1{
+          margin-left: 10px;
+          }
+            .project-1{
+                display: flex;
+                flex-direction: row;
+                }
+                .project-1 h4{
+              margin-left: 100px;
+                }
+                .project-2{
+                  display: flex;
+                  flex-direction: row;
+                  }
+                  .project-2 h4{
+                margin-left: 100px;
+                  }
+                  .project-3{
+                    display: flex;
+                    flex-direction: row;
+                    }
+                    .project-3 h4{
+                  margin-left: 100px;
+                    }
