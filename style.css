@@ -1,14 +1,14 @@
-body{
-    height: 500px;
-    background: #1400ff;
-    background: linear-gradient(90deg,#1400ff 0%, #00a3ff 80%);
-    /* background: -webkit-linear-gradient(90deg,#1400ff 0%, #00a3ff 80%); */
-    /* background: -moz-linear-gradient(90deg,#1400ff 0%, #00a3ff 80%);} */
+.container {
+    border: 1px solid rgba(0, 0, 0, .11);
+    ;
+    padding: 10px;
+    width: 500px
 }
-.container{
-    /* background-color: black; */
-    color:black;
-    font-size: 300px;
-    margin-left: 100px;
-    margin-top: 100px;
+
+.controls-item {
+    display: inline-block;
+}
+
+.btn {
+    margin: 1px;
 }
