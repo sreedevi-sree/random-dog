@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat APi</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container ">
-
-    </div>
-    <div class="container ">
-        <!-- Table structure here -->
-        <table class="table table-dark" id="our-table">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody id="table-body">
-    
-            </tbody>
-        </table>
-    </div>
-    
-    <div class="container ">
-        <div id="pagination-wrapper"></div>
+  </head>
+  <body>
+    <div id="cat_result" class="results">
+        <img src="https://purr.objects-us-east-1.dream.io/i/BynjQ.jpg" width="300px" height="300px" alt="cat"/>
     </div>
      
-</body>
-<script src="script.js"></script>
+   
+
+    <div class="buttons">
+      <button id="cat_btn" class="btn btn-primary">Get Cat</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
